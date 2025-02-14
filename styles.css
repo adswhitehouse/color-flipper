@@ -51,3 +51,68 @@ select {
   font-size: inherit;
 }
 /* CSS Reset */
+
+body {
+  font-family: "Jost", serif;
+  background-color: rgb(255, 255, 255);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 80vh;
+}
+
+.heading {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5rem 2rem;
+  border-radius: 0.25rem;
+  font-size: 2rem;
+  text-align: center;
+  width: 60%;
+}
+
+.change-color {
+  padding: 0.25rem 1rem;
+  font-size: 1.5rem;
+  border: 2px solid #000;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background-color: transparent;
+  transition: 0.5s;
+}
+
+.change-color:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  padding-block: 1rem;
+  font-size: 1.5rem;
+  box-shadow: 0 2px 10px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+  color: #000;
+  letter-spacing: 0.25rem;
+}
+
+.anchor-rgb {
+  color: teal;
+  text-decoration: underline;
+}
+
+.heading-color {
+  color: teal;
+}
