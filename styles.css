@@ -52,11 +52,6 @@ select {
 }
 /* CSS Reset */
 
-body {
-  font-family: "Jost", serif;
-  background-color: rgb(255, 255, 255);
-}
-
 main {
   display: flex;
   justify-content: center;
@@ -108,11 +103,8 @@ a {
   letter-spacing: 0.25rem;
 }
 
-.anchor-rgb {
-  color: teal;
-  text-decoration: underline;
-}
-
 .heading-color {
   color: teal;
 }
+
+

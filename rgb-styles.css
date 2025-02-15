@@ -1,8 +1,8 @@
 body {
   font-family: "Jost", serif;
-  background-color: #FFFFFF;
+  background-color: rgb(255, 255, 255);
 }
 
-.anchor-hex {
+.anchor-rgb {
   color: teal;
 }

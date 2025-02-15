@@ -5,7 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hex Flipper</title>
-  <link rel="shortcut icon" href="./icons8-color-16.png" type="image/x-icon">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./hex-styles.css">
+  <link rel="shortcut icon" href="./images/icons8-color-16.png" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
@@ -13,6 +15,20 @@
 </head>
 
 <body>
+  <header>
+    <nav>
+      <ul role="list" class="nav-list">
+        <li><a href="./index.html">RGB</a></li>
+        <li><a class="anchor-hex" href="./hex.html">HEX</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="heading">Background Color : <span class="heading-color jsHeadingColor">#FFFFFF</span></h1>
+    <button class="change-color jsChangeColor">Change the color!</button>
+  </main>
+  <script src="./hex.js"></script>
 </body>
 
 </html>
